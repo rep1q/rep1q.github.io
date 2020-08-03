@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Документ без названия</title>
+<link href="bob.css" rel="stylesheet" type="text/css">
+	<style>
+		body{
+		background-repeat: no-repeat;
+		}
+		
+		.content
+		{
+			justify-content: center;
+			margin-left: 905px;
+			
+		}
+
+			
+		.btn{
+             
+			padding: 20px 35px;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 20px;
+			color: black;
+			text-decoration: none;
+				border-radius: 3px;
+				font-weight: 700;
+				transition: .4s;
+				cursor: pointer;
+			
+		}
+		.btn--yellow{
+			
+			background: hsla(58,100%,50%,1.00);
+			
+		}
+		.btn--yellow:hover{
+			
+			background: white;
+		}
+		
+		#gall {
+  position: relative;
+  padding-top: 40%;
+  -moz-user-select: none; user-select: none;
+}
+#gall img {
+	position: absolute;
+	top: 25%;
+	left: 170px;
+	
+	max-width: 256px;
+	max-height: 170px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	cursor:pointer;
+	transition: .2s;
+}
+#gall img:nth-child(4n-2) {left: 37.5%;}
+#gall img:nth-child(4n-1) {left: 62.5%;}
+#gall img:nth-child(4n) {left: 87.5%;}
+#gall img:nth-child(n+5) {top: 75%;}
+
+
+
+#gall img:focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  outline: none;
+  pointer-events: none;
+}
+#gall img:focus ~ div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  cursor: zoom-out;
+}
+		
+		#gall2 {
+  position: relative;
+  padding-top: 40%;
+  -moz-user-select: none; user-select: none;
+}
+#gall2 img {
+	position: absolute;
+	top: 25%;
+	left: 170px;
+	
+	max-width: 256px;
+	max-height: 170px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	cursor:pointer;
+	transition: .2s;
+}
+#gall2 img:nth-child(4n-2) {left: 37.5%;}
+#gall2 img:nth-child(4n-1) {left: 62.5%;}
+#gall2 img:nth-child(4n) {left: 87.5%;}
+#gall2 img:nth-child(n+5) {top: 75%;}
+
+
+
+#gall2 img:focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  outline: none;
+  pointer-events: none;
+}
+#gall2 img:focus ~ div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  cursor: zoom-out;
+}
+
+		
+		.logo{
+			position: relative;left: 840px;
+			position: relative;bottom: 20px;
+		}
+		.menu{
+			
+			font-size: 40px;
+			color: hsla(58,100%,50%,1.00);
+			position: relative;right: 210px;
+			margin-left: 230px;
+			text-decoration: none;
+		}
+		
+		
+		.menu:hover{
+			color: hsla(0,0%,100%,1.00);
+			
+		}
+		.text{
+			font-weight:550;
+			 text-align:  center;
+			font-size: 32px;
+			
+		}
+		.text1{
+			 text-align:  left;
+			font-size: 32px;
+			
+		}
+		.text2{
+			 margin-right: 50px;
+			font-size: 40px;
+			text-align:  center;
+			position: relative;bottom: 50px;
+			
+		}
+		.text3{
+			 text-align:  left;
+			font-size: 34px;
+			font-weight: 450;
+		}
+		.info{ 
+			font-weight: 560;
+			font-size: 42px;
+			margin-left: 150px;
+		text-align: center;
+		}
+		.intro{
+			font-weight: 510;
+			font-size: 34px;
+			margin-left: 150px;
+		text-align: center;
+			
+		}
+		
+		.main{margin-left: 300px;
+		margin-right: 300px;
+		}
+		strong{margin-left: 70px;}
+		.photo{
+			 float: right; 
+             margin: 0 0 5px 5px; 
+			margin-right: 355px;
+			margin-top: 50px;
+			border-radius: 20px;
+			box-shadow: 0 0 20px 5px yellow;	
+		}
+		main{
+			color: hsla(0,0%,100%,1.00);
+		}
+		.text4{
+			text-align: center;
+			font-size: 50px;
+			color: hsla(0,0%,0%,1.00);
+			
+		}
+		.inst{margin-left: 790px;}
+		.call{margin-bottom: 5px; 
+		margin-left: 65px;
+		}
+		.vk{margin-left: 70px;
+		}
+		.footer{position: relative;bottom: 50px;
+		position: relative;right: 20px;
+		}
+    </style>
+</head>
+
+<body background="galery.jpg" width="1920" height="5200">
+<header>
+	<a href="davydov team_finally.html">
+<img src="staroe logo.png" class="logo" width="290" alt=""></a>
+		
+		<a href="НашиТренера.html" class="menu">НАШИ  ТРЕНЕРА</a><a href="НАПРАВЛЕНИЯ.html" class="menu">НАПРАВЛЕНИЯ</a>
+	<a href="ФОТОГАЛЕРЕЯ.html" class="menu">ФОТОГАЛЕРЕЯ</a> 
+</header>	
+	<main class="text1"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="content"><p><a class="btn btn--yellow" href="#top">Узнать Больше</a></p><br><br><br></div><p><a name="top"></a></p><p class="info">Фотогалерея:</p><p class="intro">
+	</p>
+<section class="main">
+    <div id="gall">
+		<img src="дд2.jpg" tabindex="0" border="3"/>		
+<img src="дд3.jpg" tabindex="0" border="3"/>	
+<img src="дд6.jpg" tabindex="0" border="3" />
+<img src="дд7.jpg" tabindex="0" border="3"/>
+
+		<img src="дд8.jpg" tabindex="0" border="3"/>		
+<img src="дд9.jpg" tabindex="0" border="3"/>	
+<img src="дд10.jpg" tabindex="0" border="3" />
+<img src="дд11.jpg" tabindex="0" border="3"/>
+					
+		
+<div></div>
+</div>
+	
+	<div id="gall2">
+		<img src="дд12.jpg" tabindex="0" border="3"/>		
+<img src="дд13.jpg" tabindex="0" border="3"/>	
+<img src="дд14.jpg" tabindex="0" border="3" />
+<img src="дд15.jpg" tabindex="0" border="3"/>
+
+		<img src="дд16.jpg" tabindex="0" border="3"/>		
+<img src="дд17.jpg" tabindex="0" border="3"/>	
+<img src="дд18.jpg" tabindex="0" border="3" />
+<img src="дд19.jpg" tabindex="0" border="3"/>
+					
+		
+<div></div>
+</div>
+	
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p class="text4">Контакты:</p>
+	<section class="footer">
+	<p class="inst">
+		<a href="https://www.instagram.com/davydovteam/?hl=ru"><img src="instagram-png-instagram-icon-1600.png" width="60"></a>
+		<img src="call1.png" class="call" width="52">
+		<a href="https://vk.com/davydovteam36"><img src="VK_Logo.png" class="vk" width="65"></a>
+	</p>
+	</section>
+	
+	
+	
+</main>
+	
+</body>
+</html>
